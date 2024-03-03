@@ -17,30 +17,69 @@ number_students = 20
 string_teachers = "4"
 numberDogs = 0
 
+
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
+
+result_1 = number_teachers > number_students
+    puts "Is number_teachers greater than number_students? #{result_1}"
+
+
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
 
+result_2 = number_teachers < number_students
+    puts "Is number_teachers < number_students? #{result_2}"
+
+
+
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+
+result_3 = number_students == string_teachers
+    puts "Is number_teachers equal to string_teachers? #{result_3}"
+
+
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
 
+result_4 = number_teachers != number_students
+    puts "Is number_teachers not equal to number_students #{result_4}"
+
+
+
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+
+result_5 = number_students >= 20
+    puts "Is number_students greater than or equal to 20? #{result_5}"
+
+
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
 
+result_6 = number_students >= 21
+    puts "Is number_students greater than or equal to 21? #{result_6}"
+
+
+
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
 
+result_7 = number_students <= 20
+    puts "Is number_students less than or equal to 20? #{result_7}"
+
+
+
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+
+result_8 = number_students <= 21
+    puts "#{result_8}"
+
 
 
 #-------------------
@@ -52,21 +91,29 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
-puts 4 < 9
-#YOU DO: Explain.
+puts 4 < 9      # The integers `4` and `9` are evaluated by the less than operator.  It returns "true" and `puts` prints it to the Terminal.
 
-books = 3
-puts 4 < books
-# YOU DO: Explain.
 
-friends = 6
-siblings = 2
-puts friends > siblings
-# YOU DO: Explain.
 
-attendees = 9
-meals = 8
-puts attendees != meals
+books = 3       # The variable `books` is defined and assigned an integer value of 3.
+puts 4 < books  # The variable `books` which holds the value 3 is compared against the value of 4 with the less than operator 
+                # where it returns "false".
+                # `puts` prints the return "false" to the Terminal.
+
+
+
+friends = 6             # The variable `friends` is defined and assigned the integer value of 6
+siblings = 2            # The variable `siblings` is defined and assigned the integer value of 2
+puts friends > siblings # The integer values assigned to the variables `friends` and `siblings` are compared against the other with the greater than operator
+                        # Which returns "true" and `puts` prints it to the Terminal.
+
+
+
+
+attendees = 9           # The variable `attendees` is defined and assigned the integer value of 9
+meals = 8               # The variable `meals` is defined and assigned the integer value of 8
+puts attendees != meals # The integer values assigned to the variables `attendees` and `meals` are compared against the other with the not equal operator
+                        # The return value is "true" and `puts` prints it to the Terminal.
 # YOU DO: Explain.
 
 
