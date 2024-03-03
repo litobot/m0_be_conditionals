@@ -124,11 +124,18 @@ puts attendees != meals # The integer values assigned to the variables `attendee
 is_hungry = true
 finished_homework = false
 
+
+
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
-puts is_hungry && finished_homework
+result_9 = is_hungry && finished_homework
+    puts "The user is hungery and has completed their homework. #{result_9}"
+
+
 # Determine if the user is hungry or has completed their homework
-puts is_hungry || finished_homework
+result_11 = is_hungry || finished_homework
+    puts "The user is hungry or has completed their homework. #{result_10}"
+
 
 loves_to_play = true
 loves_dog_park = false
@@ -138,6 +145,7 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
+result_12 = loves_to_play == loves_treats
 
 # Determine if the dog loves to play and loves the dog park
 
