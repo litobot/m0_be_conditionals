@@ -129,11 +129,11 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 result_9 = is_hungry && finished_homework
-    puts "The user is hungery and has completed their homework. #{result_9}"
+    puts "The user is hungry and has completed their homework. #{result_9}"
 
 
 # Determine if the user is hungry or has completed their homework
-result_11 = is_hungry || finished_homework
+result_10 = is_hungry || finished_homework
     puts "The user is hungry or has completed their homework. #{result_10}"
 
 
@@ -145,16 +145,28 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
-result_12 = loves_to_play == loves_treats
+result_11 = loves_to_play == loves_treats
+    puts "The dog loves to play and loves treats. #{result_11}"
+
 
 # Determine if the dog loves to play and loves the dog park
 
+result_12 = loves_to_play && loves_dog_park
+    puts "The dog loves to play and loves the dog park. #{result_12}"
+
 
 # Determine if the dog loves to play or loves the dog park
+
+result_13 = loves_to_play || loves_dog_park
+    puts "The dog loves to play or loves the dog park. #{result_13}"
 
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
 
+result_14 = loves_to_play && age < 2
+    puts "The dog loves to play and is a puppy. #{result_14}"
+
+
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER:  It evaluated to 'true' because both sides of the condition were true.
