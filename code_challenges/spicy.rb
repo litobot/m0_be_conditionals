@@ -7,15 +7,15 @@
 # multiple of either, print the Integer itself.
 
 
-my_integer = 23
+my_integer = 50
 
-    if my_integer%3 == 0
+    if my_integer%15 == 0
+    puts "FizzBuzz"
+    elsif my_integer%3 == 0
         puts "Fizz"
-    elsif my_integer%5 == 5
+    elsif my_integer%5 == 0
         puts "Buzz"
-    elsif my_integer%15 == 0
-        puts "FizzBuzz"
     else
-        puts "#{my_integer}"
+        puts my_integer
     end
 
